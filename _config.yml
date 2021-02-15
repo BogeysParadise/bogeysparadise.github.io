@@ -30,7 +30,9 @@ twitter_username: bogeysparadise
 github_username:  bogeysparadise
 
 # Build settings
-theme: "just-the-docs"
+markdown: kramdown
+#theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
@@ -125,6 +127,7 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
+  toc_levels: "2"
   syntax_highlighter_opts:
     block:
       line_numbers: true
