@@ -18,6 +18,6 @@ I use this site to keep track of projects I have going, ideas for potential new 
 
 ## Recent Posts and Updates
 
-{% include recent_posts.htlp %}
+{% include recent_posts.html %}
 
 
