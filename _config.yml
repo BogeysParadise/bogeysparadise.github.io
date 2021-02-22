@@ -139,6 +139,27 @@ collections:
     output: true
     title: Projects
 
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    development:
+      name: Development
+    projects:
+      name: Projects
+    docs:
+      name: Misc
+
+defaults:
+  -
+    scope:
+      # an empty string here means all files in the project - THAT BREAKS JTD
+      # This gets things in all the collections
+      # It's a hack around this bug: https://github.com/pmarsceill/just-the-docs/issues/472
+      path: "_*"
+    values:
+      layout: "page"
+      date: "1970-01-01"
+
 plugins:
   - jekyll-seo-tag
 
