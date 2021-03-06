@@ -1,6 +1,8 @@
 ---
 title: QMK Reference Materials
+label: Reference
 parent: Keyboards
+permalink: /projects/qmk_reference
 last_modified_date: 2021-02-11
 ---
 

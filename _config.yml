@@ -32,7 +32,8 @@ github_username:  bogeysparadise
 # Build settings
 markdown: kramdown
 #theme: "just-the-docs"
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
+remote_theme: pdmosses/just-the-docs@rec-nav-2
 plugins:
   - jekyll-feed
 
@@ -86,7 +87,7 @@ aux_links:
     - "//github.com/bogeysparadise"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
@@ -127,9 +128,9 @@ color_scheme: nil
 collections:
   # Define a collection named "docs", its documents reside in the "_docs" directory
   docs:
-    permalink: "/:path/"
+    permalink: "/:collection/:path/"
     output: true
-    title: 'Misc'
+    title: Misc
   development:
     permalink: "/:collection/:path/"
     output: true
