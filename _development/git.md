@@ -4,3 +4,5 @@ last_modified_date: 2021-03-06
 ---
 
 [Git Cheat Sheet](https://docs.juliaebert.com/programming/git/)  
+[Git workflow for normal tasks](https://erovia.github.io/posts/workflow/)  
+
