@@ -16,6 +16,12 @@ last_modified_date: 2021-02-11
 
 [QMK Userspace Docs](https://docs.qmk.fm/#/feature_userspace?id=override-default-userspace)  
 
+[QMK Layer Reference](https://beta.docs.qmk.fm/using-qmk/guides/keymap#keymap-layer-status)  
+
+[QMK Keymap Functions](https://beta.docs.qmk.fm/using-qmk/guides/custom_quantum_functions)  
+
+
+
 
 
 
