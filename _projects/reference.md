@@ -14,4 +14,8 @@ last_modified_date: 2021-02-11
 [Multifunction Rotary Encoders](https://erovia.github.io/snippets/)  
 [QMK Tools](https://erovia.github.io/tools/) - this is a great reference site.  
 
+[QMK Userspace Docs](https://docs.qmk.fm/#/feature_userspace?id=override-default-userspace)  
+
+
+
 
