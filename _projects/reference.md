@@ -20,6 +20,13 @@ last_modified_date: 2021-02-11
 
 [QMK Keymap Functions](https://beta.docs.qmk.fm/using-qmk/guides/custom_quantum_functions)  
 
+[List of all MacOS default keyboard shortcuts](https://support.apple.com/en-us/HT201236) - this is GOLD!  
+
+### QMK Processing Order  
+
+- Config.h files:  Keyboard --> Userspace --> Keymap  
+- Rules.mk files:  Keyboard --> Keymap --> Userspace  
+
 
 
 
